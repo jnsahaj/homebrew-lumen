@@ -1,16 +1,16 @@
 class Lumen < Formula
   desc "lumen is a command-line tool that can show pretty diff, generate commit messages with AI, summarise diffs / commits, and more without requiring an API key."
   homepage "https://github.com/jnsahaj/lumen"
-  version "2.8.1"
+  version "2.9.0"
 
   on_intel do
-    url "https://github.com/jnsahaj/lumen/releases/download/v2.8.1/lumen-x86_64-apple-darwin.tar.gz"
-    sha256 "e74bc0414d8cc87cfc5d24e28ec141c686ae607d39b9839f6bbeac2424cbb800"
+    url "https://github.com/jnsahaj/lumen/releases/download/v2.9.0/lumen-x86_64-apple-darwin.tar.gz"
+    sha256 "c5216b22ffcaa1de73af44f8aa887550103188bfa6a06156e2158e4473f7765d"
   end
 
   on_arm do
-    url "https://github.com/jnsahaj/lumen/releases/download/v2.8.1/lumen-aarch64-apple-darwin.tar.gz"
-    sha256 "11424b58dc917a757918f0da059f1e1ec7f65b0d0dd4dfef4113cdb0767a84c2"
+    url "https://github.com/jnsahaj/lumen/releases/download/v2.9.0/lumen-aarch64-apple-darwin.tar.gz"
+    sha256 "587062f31214cba8a58b2f3deb822444f87d3ad4a80d8c59dbc31f8c016d9de9"
   end
 
   def install
